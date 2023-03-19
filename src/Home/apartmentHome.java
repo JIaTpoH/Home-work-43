@@ -2,7 +2,6 @@ package Home;
 
 public class apartmentHome extends Home {
   private int entrance;
-  private String address;
   public apartmentHome(String address, int entrance ) {
     super(address);
     this.entrance = entrance;
@@ -17,6 +16,6 @@ public class apartmentHome extends Home {
   }
   @Override
   public String toString() {
-    return "Apartment house at " + getAddress();
+    return "Apartment house at " + getAddress() + "with " + entrance + " entrances";
   }
 }
