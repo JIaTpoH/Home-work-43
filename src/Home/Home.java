@@ -23,4 +23,6 @@ public abstract class Home {
   public void setAddress(String address) {
     this.address = address;
   }
+  public abstract void demolish();
+
 }

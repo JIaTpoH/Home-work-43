@@ -10,4 +10,8 @@ public class apartmentHome extends Home {
   public String toString() {
     return "Apartment house at " + getAddress() + "with " + entrance + " entrances";
   }
+  @Override
+  public void demolish(){
+    System.out.printf("You demolished an apartment building. %d entrances!", entrance);
+  }
 }
